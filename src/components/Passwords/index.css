@@ -1,0 +1,173 @@
+.app-container {
+  background-color: #9ba9eb;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 20px;
+}
+
+.app-logo {
+  height: 50px;
+}
+
+.passwords-container {
+  background-color: #5763a5;
+  height: 40vh;
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.logo {
+  height: 14px;
+  margin-right: 5px;
+  margin: 10px;
+}
+
+.input {
+  border: 0px;
+  height: 20px;
+  width: 200px;
+}
+
+.passwords-image {
+  height: 300px;
+}
+
+.form {
+  background-color: #454f84;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.add-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+.add-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-width: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.passwords-lists-card {
+  background-color: #5763a5;
+  height: 40vh;
+  width: 900px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.show-passwords-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.show-passwords {
+  color: #ffffff;
+}
+
+.passwords-lists-items {
+  list-style-type: none;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+.lists-items {
+  border: 1px solid red;
+  height: 80px;
+  width: 200px;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.stars {
+  height: 20px;
+  width: 150px;
+}
+
+.website {
+  color: #ffffff;
+  font-size: 10px;
+}
+
+.username {
+  color: #ffffff;
+  font-size: 10px;
+}
+
+.password {
+  color: #ffffff;
+  font-size: 10px;
+}
+
+.delete-image {
+  height: 20px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.no-passwords-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.no-passwords {
+  height: 200px;
+}
+
+.span-card {
+  color: #ffffff;
+  margin-left: 10px;
+}
